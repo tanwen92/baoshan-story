@@ -4,10 +4,25 @@
 
 ![宝山在睡觉](./baoshan-sleeping.jpg)
 
-## 学习计划
+## 主要内容
 
-- MOOK SQL 基础学习
-  - cc
-   
-- jj
+``` SQL
+SELECT * FROM Table
+```
+
+## SQL Server Management Studio 小技巧
+
+一些使用小技巧，在 SS Management Studio 中的快速使用
+
+### SQL 查询编辑器显示行号
+
+Tool > Options > Text Editior > Transact-SQL
+
+### SQL 查询大小写快速转换
+
+Editor > Addvanced > Make Uppercase
+
+
+
+
 
