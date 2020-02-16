@@ -6,6 +6,8 @@
 
 ## 1. 主要内容
 
+本地解压[数据库文件.rar](./数据库文件.rar)并导入数据库，执行行以下 SQL 示例：
+
 ``` SQL
 --Topic 1
 SELECT <table fields list> 
