@@ -201,17 +201,17 @@ order by OrderDate desc
 
 一些使用小技巧，在 SS Management Studio 中的快速使用
 
-### SQL 查询编辑器显示行号
+### 2.1 SQL 查询编辑器显示行号
 
 Tool > Options > Text Editior > Transact-SQL
 
-### SQL 查询大小写快速转换
+### 2.2 SQL 查询大小写快速转换
 
 Editor > Addvanced > Make Uppercase
 
 ## 3. 参考资料
 
-https://www.imooc.com/learn/435
+[慕课网：SQL Server基础--T-SQL语句](https://www.imooc.com/learn/435)
 
 
 
