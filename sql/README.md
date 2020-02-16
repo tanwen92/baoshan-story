@@ -4,13 +4,13 @@
 
 ![宝山在睡觉](./baoshan-sleeping.jpg)
 
-## 主要内容
+## 1. 主要内容
 
 ``` SQL
 SELECT * FROM Table
 ```
 
-## SQL Server Management Studio 小技巧
+## 2. SQL Server Management Studio 小技巧
 
 一些使用小技巧，在 SS Management Studio 中的快速使用
 
