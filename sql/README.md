@@ -209,6 +209,9 @@ Tool > Options > Text Editior > Transact-SQL
 
 Editor > Addvanced > Make Uppercase
 
+## 3. 参考资料
+
+https://www.imooc.com/learn/435
 
 
 
