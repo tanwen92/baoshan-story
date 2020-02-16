@@ -211,7 +211,7 @@ Editor > Addvanced > Make Uppercase
 
 ## 3. 参考资料
 
-[慕课网：SQL Server基础--T-SQL语句](https://www.imooc.com/learn/435)
+[[1] 慕课网：SQL Server基础--T-SQL语句](https://www.imooc.com/learn/435)
 
 
 
