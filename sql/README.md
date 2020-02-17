@@ -4,7 +4,7 @@
 
 ![宝山在睡觉](./baoshan-sleeping.jpg)
 
-## 1. 主要内容
+## 1. SQL 基础入门
 
 本地解压[数据库文件.rar](./数据库文件.rar)并导入数据库，执行行以下 SQL 示例：
 
@@ -211,7 +211,20 @@ Tool > Options > Text Editior > Transact-SQL
 
 Editor > Addvanced > Make Uppercase
 
-## 3. 参考资料
+## 3. SQL 数据库备份与迁移
+
+### 3.1 数据库迁移
+     
+迁出：数据库-detach分离 注：不会影响源文件
+     
+迁入：A.找到要备份数据库的mdf文件 B.数据库-右击attach（附加）-添加-导入成工 注：log文件可以删掉，不影响使用   
+    
+### 3.2 数据库备份
+
+备份：数据库-备份
+
+还原：数据库-还原-添加-导入成功
+## 4. 参考资料
 
 [[1] 慕课网：SQL Server基础--T-SQL语句](https://www.imooc.com/learn/435)
 
