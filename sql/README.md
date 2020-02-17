@@ -223,7 +223,7 @@ Editor > Addvanced > Make Uppercase
 
 备份：数据库-备份
 
-还原：数据库-还原-添加-导入成功
+还原：数据库-还原-添加（bak文件）-导入成功
 ## 4. 参考资料
 
 [[1] 慕课网：SQL Server基础--T-SQL语句](https://www.imooc.com/learn/435)
