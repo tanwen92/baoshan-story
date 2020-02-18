@@ -277,7 +277,8 @@ age int NULL
 删除表：
 ```SQL
 DROP TABLE tablename
-```SQL
+```
+
 ## 5. 参考资料
 
 [[1] 慕课网：SQL Server基础--T-SQL语句](https://www.imooc.com/learn/435)
