@@ -288,6 +288,29 @@ ALTER COLUMN name varchar(100)
 ALTER TABLE USERINFO
 ALTER COLUMN name float
 ```
+添加not null约束：
+```SQL
+ALTER TABLE USERINFO
+ALTER COLUMN name varchar(100) NOT NULL
+```
+设置主键：
+```SQL
+ALTER TABLE USERINFO
+ADD CONSTRAINT 主键名 PRIMARY KEY(字段名)
+```
+更改字段名：
+```SQL
+EXEC sp_rename '表名.字段名','更改后的字段','COLUMN'
+```
+添加字段名：
+```SQL
+ALTER TABLE USERINFO
+ADD grade varchar(10) not null
+```
+删除表：
+```SQL
+DROP TABLE 表名
+```
 
 ## 5. 参考资料
 
