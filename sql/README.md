@@ -268,13 +268,16 @@ Editor > Addvanced > Make Uppercase
 
 创建表的方式：SQL Server Management Studio/Transact-SQL
 ``` SQL
---CREATE TABLE USERINFO
+CREATE TABLE USERINFO
 (ID int primary key NOT NULL,
 name varchar(10) NOT NULL,
 age int NULL
 )
-``` 
-
+```
+删除表：
+```SQL
+DROP TABLE tablename
+```SQL
 ## 5. 参考资料
 
 [[1] 慕课网：SQL Server基础--T-SQL语句](https://www.imooc.com/learn/435)
