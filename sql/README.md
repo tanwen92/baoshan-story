@@ -264,10 +264,16 @@ Editor > Addvanced > Make Uppercase
 | text | 可变长度字符串，最大长度为 231 - 1个字节。 |
 | ntext | 国际化可变长度字符串，最大长度为 230 - 1个字符。 |
 
+## 5.SQL 新建表
 
+创建表的方式：SQL Server Management Studio/Transact-SQL
 
-
-## 4. 参考资料
+--CREATE TABLE USERINFO
+(ID int primary key NOT NULL,
+name varchar(10) NOT NULL,
+age int NULL
+)
+## 5. 参考资料
 
 [[1] 慕课网：SQL Server基础--T-SQL语句](https://www.imooc.com/learn/435)
 
