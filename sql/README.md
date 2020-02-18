@@ -278,6 +278,16 @@ age int NULL
 ```SQL
 DROP TABLE tablename
 ```
+更改字段类型长度：
+``` SQL
+ALTER TABLE USERINFO
+ALTER COLUMN name varchar(100)
+```
+更改字段类型：
+``` SQL
+ALTER TABLE USERINFO
+ALTER COLUMN name float
+```
 
 ## 5. 参考资料
 
