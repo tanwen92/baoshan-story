@@ -264,7 +264,7 @@ Editor > Addvanced > Make Uppercase
 | text | 可变长度字符串，最大长度为 231 - 1个字节。 |
 | ntext | 国际化可变长度字符串，最大长度为 230 - 1个字符。 |
 
-## 5.SQL 新建表
+## 5.SQL 基础
 
 创建表的方式：SQL Server Management Studio/Transact-SQL
 ``` SQL
@@ -311,6 +311,20 @@ ADD grade varchar(10) not null
 ```SQL
 DROP TABLE 表名
 ```
+## 6.连接查询
+
+### 6.1 内连接
+1.SELECT...FROM A,B 的用法
+2.SELECT...FROM A,B WHERE...的用法
+3.SELECT...FROM A JOIN B ON...的用法
+4.SELECT ...FROM A,B WHERE...与SELECT...FROM A JOIN B ON...的比较
+5.SELECT FROM WHERE JOIN ON GROUP BY ORDER TOP HAVING 的混合使用
+### 6.2 外连接
+
+### 6.3 完全连接
+### 6.4 交叉连接
+### 6.5 自连接
+### 6.6 联合
 
 ## 5. 参考资料
 
