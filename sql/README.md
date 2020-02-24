@@ -316,9 +316,9 @@ DROP TABLE 表名
 ### 6.1 内连接
 
 1.SELECT...FROM A,B 的用法:
-
+```sql
 A表的每一条记录和B表的没一条记录连接一遍，形成的临时表：AB表的行数乘积，AB表的列数之和（笛卡尔机）
-
+```
 2.SELECT...FROM A,B WHERE...的用法：
 
 SELECT...FROM A,B 产生的笛卡尔机用 WHERE 中的条件进行过滤
