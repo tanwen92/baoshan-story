@@ -320,19 +320,19 @@ DROP TABLE 表名
 A表的每一条记录和B表的没一条记录连接一遍，形成的临时表：AB表的行数乘积，AB表的列数之和（笛卡尔机）
 ```
 2.SELECT...FROM A,B WHERE...的用法：
-
+```sql
 SELECT...FROM A,B 产生的笛卡尔机用 WHERE 中的条件进行过滤
-
+```
 3.SELECT...FROM A JOIN B ON...的用法：
-
+```sql
 SELECT... FROM A JOIN B 产生的笛卡尔积用 ON 后的条件进行
-
+```
 
 
 4.SELECT ...FROM A,B WHERE...与SELECT...FROM A JOIN B ON...的比较：
- 
+ ```sql
 SELECT ...FROM A,B WHERE A.a= B.b 等价于 SELECT...FROM A JOIN B ON A.a=B.b
-
+```
 5.SELECT、 FROM、 WHERE、 JOIN、 ON 、GROUP BY、 ORDER、 TOP、 HAVING 的混合使用：
 
 6.习题：
