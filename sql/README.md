@@ -4,7 +4,7 @@
 
 ![宝山在睡觉](./baoshan-sleeping.jpg)
 
-## 1. SQL 基础入门
+
 
 
 
@@ -125,8 +125,11 @@ DROP TABLE 表名
 ### 4.1 group by
 
 1.SELECT ... FROM ... GROUP BY 只能出现分组后的整体信息，不能出现组内的详细信息。
+
 2.功能：把表中的记录按照字段分成不同的值。
+
 3.GROUP BY a,b,c：
+
 先按 a 分组，如果 a 相同，再按 b 组分组，如果 b 相同，再按 c 组分组，最终统计的是最小分组的信息。
 
 ### 4.2 having
