@@ -120,6 +120,17 @@ ADD grade varchar(10) not null
 ```SQL
 DROP TABLE 表名
 ```
+## 4.group by 和 having
+
+### 4.1 group by
+
+1.SELECT ... FROM ... GROUP BY 只能出现分组后的整体信息，不能出现组内的详细信息。
+2.功能：把表中的记录按照字段分成不同的值。
+3.GROUP BY a,b,c：
+先按 a 分组，如果 a 相同，再按 b 组分组，如果 b 相同，再按 c 组分组，最终统计的是最小分组的信息。
+
+### 4.2 having
+
 ## 5.连接查询
 
 ### 5.1 内连接
@@ -134,7 +145,7 @@ SELECT...FROM A,B 产生的笛卡尔机用 WHERE 中的条件进行过滤
 ```
 3.SELECT...FROM A JOIN B ON...的用法：
 ```sql
-SELECT... FROM A JOIN B 产生的笛卡尔积用 ON 后的条件进行
+SELECT... FROM A JOIN B 产生的笛卡尔积用 ON 后的条件进行过滤
 ```
 
 
