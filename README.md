@@ -13,6 +13,6 @@ This is me and my boyfriend's studying camp.
   
 ## Study
 
-- SQL
+- [SQL](./sql/README.md)
 - Javascript
 - English
