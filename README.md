@@ -1,4 +1,4 @@
-# baoshan-story
+# Baoshan Story
 
 This is me and my boyfriend's studying camp.
 
