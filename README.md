@@ -2,7 +2,7 @@
 
 This is me and my boyfriend's studying camp.
 
-## vlog
+## Vlog
 
 - [x] 浦江万达谭鸭血
 - [x] 台州海鲜城
@@ -10,3 +10,9 @@ This is me and my boyfriend's studying camp.
 - [x] 南京一日游
   - [x] 出发篇
   - [x] 博物馆篇
+  
+## Study
+
+- SQL
+- Javascript
+- English
